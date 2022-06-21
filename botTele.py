@@ -6,7 +6,7 @@ from readcrypto import btc , eth
 
 
 
-CHAVE_API = "5593131632:AAEW0OJ93-u2ucGyP48x-geySzuL977xM10"
+CHAVE_API = "Chave API"
 
 bot = telebot.TeleBot(CHAVE_API)
 
@@ -21,6 +21,7 @@ def opcao2(mensagem):
 
 @bot.message_handler(commands=["opcao3"])
 def opcao3(mensagem):
+    #Não desenvolvido
     bot.reply_to(mensagem, "Email enviado")
 
 def verificar(mensagem):
