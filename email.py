@@ -17,7 +17,7 @@ outlook = win32.Dispatch('outlook.application')
 email = outlook.CreateItem(0)
 
 # configurar as informações do seu e-mail
-email.To = "juansduarte02@gmail.com"
+email.To = "endereço de email"
 email.Subject = "Preço das Criptomoedas"
 email.HTMLBody = f"""
 
